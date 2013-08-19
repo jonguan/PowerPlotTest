@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD21D2A417C0401D00500E0F /* libPowerPlotLib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPowerPlotLib.a; path = "PowerPlotLib/build/Debug-iphoneos/libPowerPlotLib.a"; sourceTree = "<group>"; };
+		FD21D2A417C0401D00500E0F /* libPowerPlotLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPowerPlotLib.a; path = "PowerPlotLib/build/Debug-iphoneos/libPowerPlotLib.a"; sourceTree = "<group>"; };
 		FD73730F17C0142D000A8DC3 /* PowerPlotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerPlotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD73731217C0142D000A8DC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD73731417C0142D000A8DC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -385,7 +385,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerPlotTest/PowerPlotTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "${SRCROOT}/../PowerPlot_lib/**";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/PowerPlotLib/**";
 				INFOPLIST_FILE = "PowerPlotTest/PowerPlotTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -404,7 +404,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerPlotTest/PowerPlotTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "${SRCROOT}/../PowerPlot_lib/**";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/PowerPlotLib/**";
 				INFOPLIST_FILE = "PowerPlotTest/PowerPlotTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
