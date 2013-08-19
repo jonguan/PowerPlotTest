@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD21D31817C1D15A00500E0F /* NAArrow.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2B017C1D15A00500E0F /* NAArrow.c */; };
+		FD21D31917C1D15A00500E0F /* NABezierControlPoints.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2B317C1D15A00500E0F /* NABezierControlPoints.c */; };
+		FD21D31A17C1D15A00500E0F /* NADashing.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2B517C1D15A00500E0F /* NADashing.c */; };
+		FD21D31B17C1D15A00500E0F /* NALineIntersection.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2B717C1D15A00500E0F /* NALineIntersection.c */; };
+		FD21D31C17C1D15A00500E0F /* NALineRectangleIntersection.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2B917C1D15A00500E0F /* NALineRectangleIntersection.c */; };
+		FD21D31D17C1D15A00500E0F /* NASymbol.c in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2BC17C1D15A00500E0F /* NASymbol.c */; };
+		FD21D31E17C1D15A00500E0F /* WSAxisLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2C117C1D15A00500E0F /* WSAxisLocation.m */; };
+		FD21D31F17C1D15A00500E0F /* WSAxisProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2C417C1D15A00500E0F /* WSAxisProperties.m */; };
+		FD21D32017C1D15A00500E0F /* WSBarProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2C617C1D15A00500E0F /* WSBarProperties.m */; };
+		FD21D32117C1D15A00500E0F /* WSBinning.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2C817C1D15A00500E0F /* WSBinning.m */; };
+		FD21D32217C1D15A00500E0F /* WSChart+WSBarPlotFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2CA17C1D15A00500E0F /* WSChart+WSBarPlotFactory.m */; };
+		FD21D32317C1D15A00500E0F /* WSChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2CC17C1D15A00500E0F /* WSChart.m */; };
+		FD21D32417C1D15A00500E0F /* WSChartAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2CE17C1D15A00500E0F /* WSChartAnimation.m */; };
+		FD21D32517C1D15A00500E0F /* WSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2D117C1D15A00500E0F /* WSColor.m */; };
+		FD21D32617C1D15A00500E0F /* WSColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2D317C1D15A00500E0F /* WSColorScheme.m */; };
+		FD21D32717C1D15A00500E0F /* WSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2D517C1D15A00500E0F /* WSConnection.m */; };
+		FD21D32817C1D15A00500E0F /* WSContour.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2D817C1D15A00500E0F /* WSContour.m */; };
+		FD21D32917C1D15A00500E0F /* WSCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2DB17C1D15A00500E0F /* WSCoordinate.m */; };
+		FD21D32A17C1D15A00500E0F /* WSCustomProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2E017C1D15A00500E0F /* WSCustomProperties.m */; };
+		FD21D32B17C1D15A00500E0F /* WSData.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2E217C1D15A00500E0F /* WSData.m */; };
+		FD21D32C17C1D15A00500E0F /* WSDataOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2E517C1D15A00500E0F /* WSDataOperations.m */; };
+		FD21D32D17C1D15A00500E0F /* WSDataPointProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2E717C1D15A00500E0F /* WSDataPointProperties.m */; };
+		FD21D32E17C1D15A00500E0F /* WSDatum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2E917C1D15A00500E0F /* WSDatum.m */; };
+		FD21D32F17C1D15A00500E0F /* WSDiscProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2EC17C1D15A00500E0F /* WSDiscProperties.m */; };
+		FD21D33017C1D15A00500E0F /* WSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2EE17C1D15A00500E0F /* WSFont.m */; };
+		FD21D33117C1D15A00500E0F /* WSGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2F017C1D15A00500E0F /* WSGraph.m */; };
+		FD21D33217C1D15A00500E0F /* WSGraphConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2F217C1D15A00500E0F /* WSGraphConnections.m */; };
+		FD21D33317C1D15A00500E0F /* WSGraphPlotFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2F417C1D15A00500E0F /* WSGraphPlotFactory.m */; };
+		FD21D33417C1D15A00500E0F /* WSLinePlotFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2F617C1D15A00500E0F /* WSLinePlotFactory.m */; };
+		FD21D33517C1D15A00500E0F /* WSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2F817C1D15A00500E0F /* WSNode.m */; };
+		FD21D33617C1D15A00500E0F /* WSNodeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2FA17C1D15A00500E0F /* WSNodeProperties.m */; };
+		FD21D33717C1D15A00500E0F /* WSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2FC17C1D15A00500E0F /* WSObject.m */; };
+		FD21D33817C1D15A00500E0F /* WSPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D2FE17C1D15A00500E0F /* WSPlot.m */; };
+		FD21D33917C1D15A00500E0F /* WSPlotAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30017C1D15A00500E0F /* WSPlotAxis.m */; };
+		FD21D33A17C1D15A00500E0F /* WSPlotBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30217C1D15A00500E0F /* WSPlotBar.m */; };
+		FD21D33B17C1D15A00500E0F /* WSPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30417C1D15A00500E0F /* WSPlotController.m */; };
+		FD21D33C17C1D15A00500E0F /* WSPlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30617C1D15A00500E0F /* WSPlotData.m */; };
+		FD21D33D17C1D15A00500E0F /* WSPlotDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30817C1D15A00500E0F /* WSPlotDisc.m */; };
+		FD21D33E17C1D15A00500E0F /* WSPlotGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30B17C1D15A00500E0F /* WSPlotGraph.m */; };
+		FD21D33F17C1D15A00500E0F /* WSPlotRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30D17C1D15A00500E0F /* WSPlotRegion.m */; };
+		FD21D34017C1D15A00500E0F /* WSPlotTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D30F17C1D15A00500E0F /* WSPlotTemplate.m */; };
+		FD21D34117C1D15A00500E0F /* WSTicks.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D31117C1D15A00500E0F /* WSTicks.m */; };
+		FD21D34217C1D15A00500E0F /* WSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D31317C1D15A00500E0F /* WSVersion.m */; };
+		FD21D34317C1D15A00500E0F /* WSView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21D31617C1D15A00500E0F /* WSView.m */; };
+		FD7373E917C03B59000A8DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7373E817C03B59000A8DC3 /* Foundation.framework */; };
+		FD7373EE17C03B59000A8DC3 /* PowerPlotLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD7373ED17C03B59000A8DC3 /* PowerPlotLib.h */; };
+		FD7373F017C03B59000A8DC3 /* PowerPlotLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7373EF17C03B59000A8DC3 /* PowerPlotLib.m */; };
+		FD7373F717C03B59000A8DC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7373F617C03B59000A8DC3 /* XCTest.framework */; };
+		FD7373F817C03B59000A8DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7373E817C03B59000A8DC3 /* Foundation.framework */; };
+		FD7373FD17C03B59000A8DC3 /* libPowerPlotLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7373E517C03B59000A8DC3 /* libPowerPlotLib.a */; };
+		FD73740317C03B59000A8DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD73740117C03B59000A8DC3 /* InfoPlist.strings */; };
+		FD73740517C03B59000A8DC3 /* PowerPlotLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD73740417C03B59000A8DC3 /* PowerPlotLibTests.m */; };
+		FD73754417C03C87000A8DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD73754317C03C87000A8DC3 /* UIKit.framework */; };
+		FD73754617C03C95000A8DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD73754517C03C95000A8DC3 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7373FB17C03B59000A8DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7373DD17C03B59000A8DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7373E417C03B59000A8DC3;
+			remoteInfo = PowerPlotLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD7373E317C03B59000A8DC3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FD7373EE17C03B59000A8DC3 /* PowerPlotLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD21D2AA17C1D15A00500E0F /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		FD21D2AB17C1D15A00500E0F /* CONTRIBUTORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS; sourceTree = "<group>"; };
+		FD21D2AC17C1D15A00500E0F /* gpl-3.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gpl-3.0.txt"; sourceTree = "<group>"; };
+		FD21D2AD17C1D15A00500E0F /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		FD21D2AF17C1D15A00500E0F /* NAAmethyst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAAmethyst.h; sourceTree = "<group>"; };
+		FD21D2B017C1D15A00500E0F /* NAArrow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NAArrow.c; sourceTree = "<group>"; };
+		FD21D2B117C1D15A00500E0F /* NAArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAArrow.h; sourceTree = "<group>"; };
+		FD21D2B217C1D15A00500E0F /* NABase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NABase.h; sourceTree = "<group>"; };
+		FD21D2B317C1D15A00500E0F /* NABezierControlPoints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NABezierControlPoints.c; sourceTree = "<group>"; };
+		FD21D2B417C1D15A00500E0F /* NABezierControlPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NABezierControlPoints.h; sourceTree = "<group>"; };
+		FD21D2B517C1D15A00500E0F /* NADashing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NADashing.c; sourceTree = "<group>"; };
+		FD21D2B617C1D15A00500E0F /* NADashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADashing.h; sourceTree = "<group>"; };
+		FD21D2B717C1D15A00500E0F /* NALineIntersection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NALineIntersection.c; sourceTree = "<group>"; };
+		FD21D2B817C1D15A00500E0F /* NALineIntersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALineIntersection.h; sourceTree = "<group>"; };
+		FD21D2B917C1D15A00500E0F /* NALineRectangleIntersection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NALineRectangleIntersection.c; sourceTree = "<group>"; };
+		FD21D2BA17C1D15A00500E0F /* NALineRectangleIntersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALineRectangleIntersection.h; sourceTree = "<group>"; };
+		FD21D2BB17C1D15A00500E0F /* NARange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NARange.h; sourceTree = "<group>"; };
+		FD21D2BC17C1D15A00500E0F /* NASymbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NASymbol.c; sourceTree = "<group>"; };
+		FD21D2BD17C1D15A00500E0F /* NASymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASymbol.h; sourceTree = "<group>"; };
+		FD21D2BE17C1D15A00500E0F /* PowerPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerPlot.h; sourceTree = "<group>"; };
+		FD21D2BF17C1D15A00500E0F /* WSAuxiliary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAuxiliary.h; sourceTree = "<group>"; };
+		FD21D2C017C1D15A00500E0F /* WSAxisLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAxisLocation.h; sourceTree = "<group>"; };
+		FD21D2C117C1D15A00500E0F /* WSAxisLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAxisLocation.m; sourceTree = "<group>"; };
+		FD21D2C217C1D15A00500E0F /* WSAxisLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAxisLocationDelegate.h; sourceTree = "<group>"; };
+		FD21D2C317C1D15A00500E0F /* WSAxisProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAxisProperties.h; sourceTree = "<group>"; };
+		FD21D2C417C1D15A00500E0F /* WSAxisProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAxisProperties.m; sourceTree = "<group>"; };
+		FD21D2C517C1D15A00500E0F /* WSBarProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBarProperties.h; sourceTree = "<group>"; };
+		FD21D2C617C1D15A00500E0F /* WSBarProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBarProperties.m; sourceTree = "<group>"; };
+		FD21D2C717C1D15A00500E0F /* WSBinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBinning.h; sourceTree = "<group>"; };
+		FD21D2C817C1D15A00500E0F /* WSBinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBinning.m; sourceTree = "<group>"; };
+		FD21D2C917C1D15A00500E0F /* WSChart+WSBarPlotFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSChart+WSBarPlotFactory.h"; sourceTree = "<group>"; };
+		FD21D2CA17C1D15A00500E0F /* WSChart+WSBarPlotFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSChart+WSBarPlotFactory.m"; sourceTree = "<group>"; };
+		FD21D2CB17C1D15A00500E0F /* WSChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChart.h; sourceTree = "<group>"; };
+		FD21D2CC17C1D15A00500E0F /* WSChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChart.m; sourceTree = "<group>"; };
+		FD21D2CD17C1D15A00500E0F /* WSChartAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChartAnimation.h; sourceTree = "<group>"; };
+		FD21D2CE17C1D15A00500E0F /* WSChartAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChartAnimation.m; sourceTree = "<group>"; };
+		FD21D2CF17C1D15A00500E0F /* WSChartAnimationKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChartAnimationKeys.h; sourceTree = "<group>"; };
+		FD21D2D017C1D15A00500E0F /* WSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColor.h; sourceTree = "<group>"; };
+		FD21D2D117C1D15A00500E0F /* WSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColor.m; sourceTree = "<group>"; };
+		FD21D2D217C1D15A00500E0F /* WSColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColorScheme.h; sourceTree = "<group>"; };
+		FD21D2D317C1D15A00500E0F /* WSColorScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColorScheme.m; sourceTree = "<group>"; };
+		FD21D2D417C1D15A00500E0F /* WSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSConnection.h; sourceTree = "<group>"; };
+		FD21D2D517C1D15A00500E0F /* WSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSConnection.m; sourceTree = "<group>"; };
+		FD21D2D617C1D15A00500E0F /* WSConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSConnectionDelegate.h; sourceTree = "<group>"; };
+		FD21D2D717C1D15A00500E0F /* WSContour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSContour.h; sourceTree = "<group>"; };
+		FD21D2D817C1D15A00500E0F /* WSContour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSContour.m; sourceTree = "<group>"; };
+		FD21D2D917C1D15A00500E0F /* WSControllerGestureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSControllerGestureDelegate.h; sourceTree = "<group>"; };
+		FD21D2DA17C1D15A00500E0F /* WSCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinate.h; sourceTree = "<group>"; };
+		FD21D2DB17C1D15A00500E0F /* WSCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCoordinate.m; sourceTree = "<group>"; };
+		FD21D2DC17C1D15A00500E0F /* WSCoordinateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinateDelegate.h; sourceTree = "<group>"; };
+		FD21D2DD17C1D15A00500E0F /* WSCoordinateDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinateDirection.h; sourceTree = "<group>"; };
+		FD21D2DE17C1D15A00500E0F /* WSCoordinateTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinateTransform.h; sourceTree = "<group>"; };
+		FD21D2DF17C1D15A00500E0F /* WSCustomProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCustomProperties.h; sourceTree = "<group>"; };
+		FD21D2E017C1D15A00500E0F /* WSCustomProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCustomProperties.m; sourceTree = "<group>"; };
+		FD21D2E117C1D15A00500E0F /* WSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSData.h; sourceTree = "<group>"; };
+		FD21D2E217C1D15A00500E0F /* WSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSData.m; sourceTree = "<group>"; };
+		FD21D2E317C1D15A00500E0F /* WSDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDataDelegate.h; sourceTree = "<group>"; };
+		FD21D2E417C1D15A00500E0F /* WSDataOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDataOperations.h; sourceTree = "<group>"; };
+		FD21D2E517C1D15A00500E0F /* WSDataOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDataOperations.m; sourceTree = "<group>"; };
+		FD21D2E617C1D15A00500E0F /* WSDataPointProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDataPointProperties.h; sourceTree = "<group>"; };
+		FD21D2E717C1D15A00500E0F /* WSDataPointProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDataPointProperties.m; sourceTree = "<group>"; };
+		FD21D2E817C1D15A00500E0F /* WSDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatum.h; sourceTree = "<group>"; };
+		FD21D2E917C1D15A00500E0F /* WSDatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatum.m; sourceTree = "<group>"; };
+		FD21D2EA17C1D15A00500E0F /* WSDatumCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatumCustomization.h; sourceTree = "<group>"; };
+		FD21D2EB17C1D15A00500E0F /* WSDiscProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDiscProperties.h; sourceTree = "<group>"; };
+		FD21D2EC17C1D15A00500E0F /* WSDiscProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDiscProperties.m; sourceTree = "<group>"; };
+		FD21D2ED17C1D15A00500E0F /* WSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFont.h; sourceTree = "<group>"; };
+		FD21D2EE17C1D15A00500E0F /* WSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFont.m; sourceTree = "<group>"; };
+		FD21D2EF17C1D15A00500E0F /* WSGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGraph.h; sourceTree = "<group>"; };
+		FD21D2F017C1D15A00500E0F /* WSGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGraph.m; sourceTree = "<group>"; };
+		FD21D2F117C1D15A00500E0F /* WSGraphConnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGraphConnections.h; sourceTree = "<group>"; };
+		FD21D2F217C1D15A00500E0F /* WSGraphConnections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGraphConnections.m; sourceTree = "<group>"; };
+		FD21D2F317C1D15A00500E0F /* WSGraphPlotFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGraphPlotFactory.h; sourceTree = "<group>"; };
+		FD21D2F417C1D15A00500E0F /* WSGraphPlotFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGraphPlotFactory.m; sourceTree = "<group>"; };
+		FD21D2F517C1D15A00500E0F /* WSLinePlotFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLinePlotFactory.h; sourceTree = "<group>"; };
+		FD21D2F617C1D15A00500E0F /* WSLinePlotFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLinePlotFactory.m; sourceTree = "<group>"; };
+		FD21D2F717C1D15A00500E0F /* WSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNode.h; sourceTree = "<group>"; };
+		FD21D2F817C1D15A00500E0F /* WSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNode.m; sourceTree = "<group>"; };
+		FD21D2F917C1D15A00500E0F /* WSNodeProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNodeProperties.h; sourceTree = "<group>"; };
+		FD21D2FA17C1D15A00500E0F /* WSNodeProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNodeProperties.m; sourceTree = "<group>"; };
+		FD21D2FB17C1D15A00500E0F /* WSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSObject.h; sourceTree = "<group>"; };
+		FD21D2FC17C1D15A00500E0F /* WSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSObject.m; sourceTree = "<group>"; };
+		FD21D2FD17C1D15A00500E0F /* WSPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlot.h; sourceTree = "<group>"; };
+		FD21D2FE17C1D15A00500E0F /* WSPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlot.m; sourceTree = "<group>"; };
+		FD21D2FF17C1D15A00500E0F /* WSPlotAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotAxis.h; sourceTree = "<group>"; };
+		FD21D30017C1D15A00500E0F /* WSPlotAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotAxis.m; sourceTree = "<group>"; };
+		FD21D30117C1D15A00500E0F /* WSPlotBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotBar.h; sourceTree = "<group>"; };
+		FD21D30217C1D15A00500E0F /* WSPlotBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotBar.m; sourceTree = "<group>"; };
+		FD21D30317C1D15A00500E0F /* WSPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotController.h; sourceTree = "<group>"; };
+		FD21D30417C1D15A00500E0F /* WSPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotController.m; sourceTree = "<group>"; };
+		FD21D30517C1D15A00500E0F /* WSPlotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotData.h; sourceTree = "<group>"; };
+		FD21D30617C1D15A00500E0F /* WSPlotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotData.m; sourceTree = "<group>"; };
+		FD21D30717C1D15A00500E0F /* WSPlotDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotDisc.h; sourceTree = "<group>"; };
+		FD21D30817C1D15A00500E0F /* WSPlotDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotDisc.m; sourceTree = "<group>"; };
+		FD21D30917C1D15A00500E0F /* WSPlotFactoryDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotFactoryDefaults.h; sourceTree = "<group>"; };
+		FD21D30A17C1D15A00500E0F /* WSPlotGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotGraph.h; sourceTree = "<group>"; };
+		FD21D30B17C1D15A00500E0F /* WSPlotGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotGraph.m; sourceTree = "<group>"; };
+		FD21D30C17C1D15A00500E0F /* WSPlotRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotRegion.h; sourceTree = "<group>"; };
+		FD21D30D17C1D15A00500E0F /* WSPlotRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotRegion.m; sourceTree = "<group>"; };
+		FD21D30E17C1D15A00500E0F /* WSPlotTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlotTemplate.h; sourceTree = "<group>"; };
+		FD21D30F17C1D15A00500E0F /* WSPlotTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPlotTemplate.m; sourceTree = "<group>"; };
+		FD21D31017C1D15A00500E0F /* WSTicks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTicks.h; sourceTree = "<group>"; };
+		FD21D31117C1D15A00500E0F /* WSTicks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTicks.m; sourceTree = "<group>"; };
+		FD21D31217C1D15A00500E0F /* WSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSVersion.h; sourceTree = "<group>"; };
+		FD21D31317C1D15A00500E0F /* WSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSVersion.m; sourceTree = "<group>"; };
+		FD21D31417C1D15A00500E0F /* WSVersionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSVersionDelegate.h; sourceTree = "<group>"; };
+		FD21D31517C1D15A00500E0F /* WSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSView.h; sourceTree = "<group>"; };
+		FD21D31617C1D15A00500E0F /* WSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSView.m; sourceTree = "<group>"; };
+		FD21D31717C1D15A00500E0F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FD7373E517C03B59000A8DC3 /* libPowerPlotLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPowerPlotLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7373E817C03B59000A8DC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD7373EC17C03B59000A8DC3 /* PowerPlotLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerPlotLib-Prefix.pch"; sourceTree = "<group>"; };
+		FD7373ED17C03B59000A8DC3 /* PowerPlotLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerPlotLib.h; sourceTree = "<group>"; };
+		FD7373EF17C03B59000A8DC3 /* PowerPlotLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerPlotLib.m; sourceTree = "<group>"; };
+		FD7373F517C03B59000A8DC3 /* PowerPlotLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerPlotLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7373F617C03B59000A8DC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD73740017C03B59000A8DC3 /* PowerPlotLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerPlotLibTests-Info.plist"; sourceTree = "<group>"; };
+		FD73740217C03B59000A8DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD73740417C03B59000A8DC3 /* PowerPlotLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerPlotLibTests.m; sourceTree = "<group>"; };
+		FD73754317C03C87000A8DC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD73754517C03C95000A8DC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7373E217C03B59000A8DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD73754617C03C95000A8DC3 /* CoreGraphics.framework in Frameworks */,
+				FD73754417C03C87000A8DC3 /* UIKit.framework in Frameworks */,
+				FD7373E917C03B59000A8DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7373F217C03B59000A8DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7373F717C03B59000A8DC3 /* XCTest.framework in Frameworks */,
+				FD7373FD17C03B59000A8DC3 /* libPowerPlotLib.a in Frameworks */,
+				FD7373F817C03B59000A8DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD21D2A917C1D15A00500E0F /* PowerPlot_lib */ = {
+			isa = PBXGroup;
+			children = (
+				FD21D2AA17C1D15A00500E0F /* CHANGES */,
+				FD21D2AB17C1D15A00500E0F /* CONTRIBUTORS */,
+				FD21D2AC17C1D15A00500E0F /* gpl-3.0.txt */,
+				FD21D2AD17C1D15A00500E0F /* INSTALL */,
+				FD21D2AE17C1D15A00500E0F /* lib */,
+				FD21D31717C1D15A00500E0F /* README */,
+			);
+			path = PowerPlot_lib;
+			sourceTree = "<group>";
+		};
+		FD21D2AE17C1D15A00500E0F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FD21D2AF17C1D15A00500E0F /* NAAmethyst.h */,
+				FD21D2B017C1D15A00500E0F /* NAArrow.c */,
+				FD21D2B117C1D15A00500E0F /* NAArrow.h */,
+				FD21D2B217C1D15A00500E0F /* NABase.h */,
+				FD21D2B317C1D15A00500E0F /* NABezierControlPoints.c */,
+				FD21D2B417C1D15A00500E0F /* NABezierControlPoints.h */,
+				FD21D2B517C1D15A00500E0F /* NADashing.c */,
+				FD21D2B617C1D15A00500E0F /* NADashing.h */,
+				FD21D2B717C1D15A00500E0F /* NALineIntersection.c */,
+				FD21D2B817C1D15A00500E0F /* NALineIntersection.h */,
+				FD21D2B917C1D15A00500E0F /* NALineRectangleIntersection.c */,
+				FD21D2BA17C1D15A00500E0F /* NALineRectangleIntersection.h */,
+				FD21D2BB17C1D15A00500E0F /* NARange.h */,
+				FD21D2BC17C1D15A00500E0F /* NASymbol.c */,
+				FD21D2BD17C1D15A00500E0F /* NASymbol.h */,
+				FD21D2BE17C1D15A00500E0F /* PowerPlot.h */,
+				FD21D2BF17C1D15A00500E0F /* WSAuxiliary.h */,
+				FD21D2C017C1D15A00500E0F /* WSAxisLocation.h */,
+				FD21D2C117C1D15A00500E0F /* WSAxisLocation.m */,
+				FD21D2C217C1D15A00500E0F /* WSAxisLocationDelegate.h */,
+				FD21D2C317C1D15A00500E0F /* WSAxisProperties.h */,
+				FD21D2C417C1D15A00500E0F /* WSAxisProperties.m */,
+				FD21D2C517C1D15A00500E0F /* WSBarProperties.h */,
+				FD21D2C617C1D15A00500E0F /* WSBarProperties.m */,
+				FD21D2C717C1D15A00500E0F /* WSBinning.h */,
+				FD21D2C817C1D15A00500E0F /* WSBinning.m */,
+				FD21D2C917C1D15A00500E0F /* WSChart+WSBarPlotFactory.h */,
+				FD21D2CA17C1D15A00500E0F /* WSChart+WSBarPlotFactory.m */,
+				FD21D2CB17C1D15A00500E0F /* WSChart.h */,
+				FD21D2CC17C1D15A00500E0F /* WSChart.m */,
+				FD21D2CD17C1D15A00500E0F /* WSChartAnimation.h */,
+				FD21D2CE17C1D15A00500E0F /* WSChartAnimation.m */,
+				FD21D2CF17C1D15A00500E0F /* WSChartAnimationKeys.h */,
+				FD21D2D017C1D15A00500E0F /* WSColor.h */,
+				FD21D2D117C1D15A00500E0F /* WSColor.m */,
+				FD21D2D217C1D15A00500E0F /* WSColorScheme.h */,
+				FD21D2D317C1D15A00500E0F /* WSColorScheme.m */,
+				FD21D2D417C1D15A00500E0F /* WSConnection.h */,
+				FD21D2D517C1D15A00500E0F /* WSConnection.m */,
+				FD21D2D617C1D15A00500E0F /* WSConnectionDelegate.h */,
+				FD21D2D717C1D15A00500E0F /* WSContour.h */,
+				FD21D2D817C1D15A00500E0F /* WSContour.m */,
+				FD21D2D917C1D15A00500E0F /* WSControllerGestureDelegate.h */,
+				FD21D2DA17C1D15A00500E0F /* WSCoordinate.h */,
+				FD21D2DB17C1D15A00500E0F /* WSCoordinate.m */,
+				FD21D2DC17C1D15A00500E0F /* WSCoordinateDelegate.h */,
+				FD21D2DD17C1D15A00500E0F /* WSCoordinateDirection.h */,
+				FD21D2DE17C1D15A00500E0F /* WSCoordinateTransform.h */,
+				FD21D2DF17C1D15A00500E0F /* WSCustomProperties.h */,
+				FD21D2E017C1D15A00500E0F /* WSCustomProperties.m */,
+				FD21D2E117C1D15A00500E0F /* WSData.h */,
+				FD21D2E217C1D15A00500E0F /* WSData.m */,
+				FD21D2E317C1D15A00500E0F /* WSDataDelegate.h */,
+				FD21D2E417C1D15A00500E0F /* WSDataOperations.h */,
+				FD21D2E517C1D15A00500E0F /* WSDataOperations.m */,
+				FD21D2E617C1D15A00500E0F /* WSDataPointProperties.h */,
+				FD21D2E717C1D15A00500E0F /* WSDataPointProperties.m */,
+				FD21D2E817C1D15A00500E0F /* WSDatum.h */,
+				FD21D2E917C1D15A00500E0F /* WSDatum.m */,
+				FD21D2EA17C1D15A00500E0F /* WSDatumCustomization.h */,
+				FD21D2EB17C1D15A00500E0F /* WSDiscProperties.h */,
+				FD21D2EC17C1D15A00500E0F /* WSDiscProperties.m */,
+				FD21D2ED17C1D15A00500E0F /* WSFont.h */,
+				FD21D2EE17C1D15A00500E0F /* WSFont.m */,
+				FD21D2EF17C1D15A00500E0F /* WSGraph.h */,
+				FD21D2F017C1D15A00500E0F /* WSGraph.m */,
+				FD21D2F117C1D15A00500E0F /* WSGraphConnections.h */,
+				FD21D2F217C1D15A00500E0F /* WSGraphConnections.m */,
+				FD21D2F317C1D15A00500E0F /* WSGraphPlotFactory.h */,
+				FD21D2F417C1D15A00500E0F /* WSGraphPlotFactory.m */,
+				FD21D2F517C1D15A00500E0F /* WSLinePlotFactory.h */,
+				FD21D2F617C1D15A00500E0F /* WSLinePlotFactory.m */,
+				FD21D2F717C1D15A00500E0F /* WSNode.h */,
+				FD21D2F817C1D15A00500E0F /* WSNode.m */,
+				FD21D2F917C1D15A00500E0F /* WSNodeProperties.h */,
+				FD21D2FA17C1D15A00500E0F /* WSNodeProperties.m */,
+				FD21D2FB17C1D15A00500E0F /* WSObject.h */,
+				FD21D2FC17C1D15A00500E0F /* WSObject.m */,
+				FD21D2FD17C1D15A00500E0F /* WSPlot.h */,
+				FD21D2FE17C1D15A00500E0F /* WSPlot.m */,
+				FD21D2FF17C1D15A00500E0F /* WSPlotAxis.h */,
+				FD21D30017C1D15A00500E0F /* WSPlotAxis.m */,
+				FD21D30117C1D15A00500E0F /* WSPlotBar.h */,
+				FD21D30217C1D15A00500E0F /* WSPlotBar.m */,
+				FD21D30317C1D15A00500E0F /* WSPlotController.h */,
+				FD21D30417C1D15A00500E0F /* WSPlotController.m */,
+				FD21D30517C1D15A00500E0F /* WSPlotData.h */,
+				FD21D30617C1D15A00500E0F /* WSPlotData.m */,
+				FD21D30717C1D15A00500E0F /* WSPlotDisc.h */,
+				FD21D30817C1D15A00500E0F /* WSPlotDisc.m */,
+				FD21D30917C1D15A00500E0F /* WSPlotFactoryDefaults.h */,
+				FD21D30A17C1D15A00500E0F /* WSPlotGraph.h */,
+				FD21D30B17C1D15A00500E0F /* WSPlotGraph.m */,
+				FD21D30C17C1D15A00500E0F /* WSPlotRegion.h */,
+				FD21D30D17C1D15A00500E0F /* WSPlotRegion.m */,
+				FD21D30E17C1D15A00500E0F /* WSPlotTemplate.h */,
+				FD21D30F17C1D15A00500E0F /* WSPlotTemplate.m */,
+				FD21D31017C1D15A00500E0F /* WSTicks.h */,
+				FD21D31117C1D15A00500E0F /* WSTicks.m */,
+				FD21D31217C1D15A00500E0F /* WSVersion.h */,
+				FD21D31317C1D15A00500E0F /* WSVersion.m */,
+				FD21D31417C1D15A00500E0F /* WSVersionDelegate.h */,
+				FD21D31517C1D15A00500E0F /* WSView.h */,
+				FD21D31617C1D15A00500E0F /* WSView.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FD7373DC17C03B59000A8DC3 = {
+			isa = PBXGroup;
+			children = (
+				FD7373EA17C03B59000A8DC3 /* PowerPlotLib */,
+				FD7373FE17C03B59000A8DC3 /* PowerPlotLibTests */,
+				FD7373E717C03B59000A8DC3 /* Frameworks */,
+				FD7373E617C03B59000A8DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7373E617C03B59000A8DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7373E517C03B59000A8DC3 /* libPowerPlotLib.a */,
+				FD7373F517C03B59000A8DC3 /* PowerPlotLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7373E717C03B59000A8DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD73754517C03C95000A8DC3 /* CoreGraphics.framework */,
+				FD73754317C03C87000A8DC3 /* UIKit.framework */,
+				FD7373E817C03B59000A8DC3 /* Foundation.framework */,
+				FD7373F617C03B59000A8DC3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD7373EA17C03B59000A8DC3 /* PowerPlotLib */ = {
+			isa = PBXGroup;
+			children = (
+				FD21D2A917C1D15A00500E0F /* PowerPlot_lib */,
+				FD7373ED17C03B59000A8DC3 /* PowerPlotLib.h */,
+				FD7373EF17C03B59000A8DC3 /* PowerPlotLib.m */,
+				FD7373EB17C03B59000A8DC3 /* Supporting Files */,
+			);
+			path = PowerPlotLib;
+			sourceTree = "<group>";
+		};
+		FD7373EB17C03B59000A8DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7373EC17C03B59000A8DC3 /* PowerPlotLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7373FE17C03B59000A8DC3 /* PowerPlotLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD73740417C03B59000A8DC3 /* PowerPlotLibTests.m */,
+				FD7373FF17C03B59000A8DC3 /* Supporting Files */,
+			);
+			path = PowerPlotLibTests;
+			sourceTree = "<group>";
+		};
+		FD7373FF17C03B59000A8DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD73740017C03B59000A8DC3 /* PowerPlotLibTests-Info.plist */,
+				FD73740117C03B59000A8DC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7373E417C03B59000A8DC3 /* PowerPlotLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD73740817C03B59000A8DC3 /* Build configuration list for PBXNativeTarget "PowerPlotLib" */;
+			buildPhases = (
+				FD7373E117C03B59000A8DC3 /* Sources */,
+				FD7373E217C03B59000A8DC3 /* Frameworks */,
+				FD7373E317C03B59000A8DC3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerPlotLib;
+			productName = PowerPlotLib;
+			productReference = FD7373E517C03B59000A8DC3 /* libPowerPlotLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD7373F417C03B59000A8DC3 /* PowerPlotLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD73740B17C03B59000A8DC3 /* Build configuration list for PBXNativeTarget "PowerPlotLibTests" */;
+			buildPhases = (
+				FD7373F117C03B59000A8DC3 /* Sources */,
+				FD7373F217C03B59000A8DC3 /* Frameworks */,
+				FD7373F317C03B59000A8DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7373FC17C03B59000A8DC3 /* PBXTargetDependency */,
+			);
+			name = PowerPlotLibTests;
+			productName = PowerPlotLibTests;
+			productReference = FD7373F517C03B59000A8DC3 /* PowerPlotLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7373DD17C03B59000A8DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Scanadu;
+			};
+			buildConfigurationList = FD7373E017C03B59000A8DC3 /* Build configuration list for PBXProject "PowerPlotLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD7373DC17C03B59000A8DC3;
+			productRefGroup = FD7373E617C03B59000A8DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7373E417C03B59000A8DC3 /* PowerPlotLib */,
+				FD7373F417C03B59000A8DC3 /* PowerPlotLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7373F317C03B59000A8DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD73740317C03B59000A8DC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7373E117C03B59000A8DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD21D32017C1D15A00500E0F /* WSBarProperties.m in Sources */,
+				FD21D32A17C1D15A00500E0F /* WSCustomProperties.m in Sources */,
+				FD21D31917C1D15A00500E0F /* NABezierControlPoints.c in Sources */,
+				FD21D33D17C1D15A00500E0F /* WSPlotDisc.m in Sources */,
+				FD21D32317C1D15A00500E0F /* WSChart.m in Sources */,
+				FD21D31A17C1D15A00500E0F /* NADashing.c in Sources */,
+				FD21D31817C1D15A00500E0F /* NAArrow.c in Sources */,
+				FD21D32717C1D15A00500E0F /* WSConnection.m in Sources */,
+				FD21D33317C1D15A00500E0F /* WSGraphPlotFactory.m in Sources */,
+				FD21D33F17C1D15A00500E0F /* WSPlotRegion.m in Sources */,
+				FD21D33817C1D15A00500E0F /* WSPlot.m in Sources */,
+				FD21D32417C1D15A00500E0F /* WSChartAnimation.m in Sources */,
+				FD21D32517C1D15A00500E0F /* WSColor.m in Sources */,
+				FD21D33B17C1D15A00500E0F /* WSPlotController.m in Sources */,
+				FD21D33617C1D15A00500E0F /* WSNodeProperties.m in Sources */,
+				FD21D32E17C1D15A00500E0F /* WSDatum.m in Sources */,
+				FD21D31E17C1D15A00500E0F /* WSAxisLocation.m in Sources */,
+				FD21D32617C1D15A00500E0F /* WSColorScheme.m in Sources */,
+				FD21D34017C1D15A00500E0F /* WSPlotTemplate.m in Sources */,
+				FD21D32917C1D15A00500E0F /* WSCoordinate.m in Sources */,
+				FD21D33A17C1D15A00500E0F /* WSPlotBar.m in Sources */,
+				FD21D32B17C1D15A00500E0F /* WSData.m in Sources */,
+				FD21D34117C1D15A00500E0F /* WSTicks.m in Sources */,
+				FD21D31F17C1D15A00500E0F /* WSAxisProperties.m in Sources */,
+				FD21D31D17C1D15A00500E0F /* NASymbol.c in Sources */,
+				FD21D33917C1D15A00500E0F /* WSPlotAxis.m in Sources */,
+				FD21D33517C1D15A00500E0F /* WSNode.m in Sources */,
+				FD21D33017C1D15A00500E0F /* WSFont.m in Sources */,
+				FD21D32817C1D15A00500E0F /* WSContour.m in Sources */,
+				FD21D34317C1D15A00500E0F /* WSView.m in Sources */,
+				FD21D33117C1D15A00500E0F /* WSGraph.m in Sources */,
+				FD21D34217C1D15A00500E0F /* WSVersion.m in Sources */,
+				FD21D33E17C1D15A00500E0F /* WSPlotGraph.m in Sources */,
+				FD21D33717C1D15A00500E0F /* WSObject.m in Sources */,
+				FD21D31C17C1D15A00500E0F /* NALineRectangleIntersection.c in Sources */,
+				FD21D33C17C1D15A00500E0F /* WSPlotData.m in Sources */,
+				FD21D31B17C1D15A00500E0F /* NALineIntersection.c in Sources */,
+				FD21D32117C1D15A00500E0F /* WSBinning.m in Sources */,
+				FD21D33217C1D15A00500E0F /* WSGraphConnections.m in Sources */,
+				FD21D32C17C1D15A00500E0F /* WSDataOperations.m in Sources */,
+				FD21D33417C1D15A00500E0F /* WSLinePlotFactory.m in Sources */,
+				FD21D32217C1D15A00500E0F /* WSChart+WSBarPlotFactory.m in Sources */,
+				FD7373F017C03B59000A8DC3 /* PowerPlotLib.m in Sources */,
+				FD21D32F17C1D15A00500E0F /* WSDiscProperties.m in Sources */,
+				FD21D32D17C1D15A00500E0F /* WSDataPointProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7373F117C03B59000A8DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD73740517C03B59000A8DC3 /* PowerPlotLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7373FC17C03B59000A8DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7373E417C03B59000A8DC3 /* PowerPlotLib */;
+			targetProxy = FD7373FB17C03B59000A8DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD73740117C03B59000A8DC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD73740217C03B59000A8DC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD73740617C03B59000A8DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD73740717C03B59000A8DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD73740917C03B59000A8DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/PowerPlotLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerPlotLib/PowerPlotLib-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD73740A17C03B59000A8DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/PowerPlotLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerPlotLib/PowerPlotLib-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD73740C17C03B59000A8DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerPlotLib/PowerPlotLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PowerPlotLibTests/PowerPlotLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD73740D17C03B59000A8DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerPlotLib/PowerPlotLib-Prefix.pch";
+				INFOPLIST_FILE = "PowerPlotLibTests/PowerPlotLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7373E017C03B59000A8DC3 /* Build configuration list for PBXProject "PowerPlotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD73740617C03B59000A8DC3 /* Debug */,
+				FD73740717C03B59000A8DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD73740817C03B59000A8DC3 /* Build configuration list for PBXNativeTarget "PowerPlotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD73740917C03B59000A8DC3 /* Debug */,
+				FD73740A17C03B59000A8DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD73740B17C03B59000A8DC3 /* Build configuration list for PBXNativeTarget "PowerPlotLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD73740C17C03B59000A8DC3 /* Debug */,
+				FD73740D17C03B59000A8DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7373DD17C03B59000A8DC3 /* Project object */;
+}

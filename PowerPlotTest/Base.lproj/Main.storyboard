@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.2" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KDK-Ah-KVt"/>
+                        <viewControllerLayoutGuide type="bottom" id="59O-Wd-2Pc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-ft-MCH">
+                                <rect key="frame" x="20" y="540" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="tiJ-aF-8rY"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Bars"/>
+                                    <segment title="Lines"/>
+                                </segments>
+                                <connections>
+                                    <action selector="didToggleControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="kh7-ns-BuO"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdX-pR-tz5" customClass="WSChart">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fMf-ft-MCH" firstAttribute="top" secondItem="AdX-pR-tz5" secondAttribute="bottom" id="0rI-sP-3fT"/>
+                            <constraint firstItem="AdX-pR-tz5" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="DWp-Ch-jlF"/>
+                            <constraint firstAttribute="trailing" secondItem="AdX-pR-tz5" secondAttribute="trailing" id="GdR-Jz-cFR"/>
+                            <constraint firstItem="AdX-pR-tz5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ZiZ-JP-06g"/>
+                            <constraint firstItem="59O-Wd-2Pc" firstAttribute="top" secondItem="fMf-ft-MCH" secondAttribute="bottom" id="bUA-9e-g5v"/>
+                            <constraint firstItem="fMf-ft-MCH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="jUk-Js-eDi"/>
+                            <constraint firstItem="fMf-ft-MCH" firstAttribute="top" secondItem="AdX-pR-tz5" secondAttribute="bottom" id="nHb-WP-IFu"/>
+                            <constraint firstAttribute="trailing" secondItem="fMf-ft-MCH" secondAttribute="trailing" constant="20" id="rGP-Wz-gqH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="segControl" destination="fMf-ft-MCH" id="ig9-CD-pPu"/>
+                        <outlet property="wsChart" destination="AdX-pR-tz5" id="q8Q-Ca-GkS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

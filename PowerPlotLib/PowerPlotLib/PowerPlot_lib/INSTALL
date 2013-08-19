@@ -1,0 +1,18 @@
+PowerPlot - How to use
+======================
+
+PowerPlot is distributed as a static library. This version is the
+GPLv3-version and is distributed as source code. For the commercial
+version which does not force you to redistribute derivative works of
+this library, please contact us directly by email.
+
+In XCode, add the files from the 'lib' directory to your project. Then
+include the main header file "PowerPlot.h" in all files that access
+and use any component of PowerPlot.
+
+For further documentation and support please visit the website
+http://powerplot.nua-schroers.de
+
+
+Written 2010-2012 by Dr. W. Schroers, NuAS http://nua-schroers.de
+Published under the GPLv3, see file <gpl-3.0.txt>
